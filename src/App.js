@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     //fetch and grab a random solution
-    fetch('http://localhost:3001/solutions')
+    fetch('http://localhost:8000/solutions')
     .then(res => res.json())
     .then(json => {
       //random int between 0 and 14
